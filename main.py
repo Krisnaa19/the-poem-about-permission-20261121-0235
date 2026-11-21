@@ -4,7 +4,9 @@
 Writes one short poem about agency — the power to ask and to be given —
 to /output/entry.txt. The poem is fixed: the entry is the text itself,
 a single moment in which asking, not taking, is what hands over the
-power to act.
+power to act. The em-dash in the third line is the pause between asking
+and receiving: the key is pressed into the palm, and only then does the
+door open.
 """
 
 import os
@@ -15,6 +17,7 @@ POEM = (
     "into my palm, still warm —\n"
     "and the door was mine to open."
 )
+# 113 Unicode code points; the gate allows 1..280.
 
 
 def main() -> None:
